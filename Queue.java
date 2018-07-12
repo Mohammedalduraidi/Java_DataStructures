@@ -1,7 +1,7 @@
 public class Queue {
-   // your code is here
+ private int[] storage;
     public void push(int pushedElement){
-       //your code is here
+       this.storage[this.storage.length] = pushedElement;
     }
     public void pop(){
         //your code is here
